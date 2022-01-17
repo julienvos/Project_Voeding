@@ -1,0 +1,15 @@
+Product Backlog Big Data
+
+- Stelling 1: In Azie is men minder dik dan in West-Europa
+		- Is het gemiddelde BMI lager voor zowel man als vrouw in grote delen van Azie vergeleken met West-Europa?
+		- Zit in dit mogelijke verschil een associatie met voeding?
+			- Wat voor soort voeding (bijv. vlees of granen) eet men vooral in deze regio's?
+			- Verschil in opname van vetten?
+			- Verschil in opname van suiker?
+
+- Stelling 2: Langs de Middelandse Zee leeft men langer dan in Noord-Europa
+		- Is de levensverwachting hoger rond de Middelandse zee in vergeleken met landen in Noord-Europa?
+		- Kan dit gerelateerd worden met het voedingspatroon?
+			- Wat voor soort voeding (bijv. vlees of granen) eet men vooral in deze regio's?
+			- Vergelijken fruit en groente inname (eet men rond het Middelandse zee gebied meer fruit en groente?)
+			- Vergelijken suiker en vet opname 
