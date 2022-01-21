@@ -5,8 +5,7 @@ import streamlit as st
 #import custom library
 from db_connect.connect_to_database import read_from_database
 
-
-@st.cache(ttl=600)
+@st.cache
 def get_data():
     # Data: bmi of men
     query_bmi_men = "SELECT * FROM bmi_men"
