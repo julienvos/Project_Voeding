@@ -5,7 +5,7 @@ import numpy as np
 from db_connect_streamlit.get_the_data_from_database import get_data
 
 import plotly.express as px
-from db_connect_streamlit.read_db import init_connection, read_from_database_streamlit
+from db_connect_streamlit.read_db import init_connection
 
 from pages.BMI_vs_voeding import bmi_function
 from pages.covid_vs_voeding import covid_voeding_function
