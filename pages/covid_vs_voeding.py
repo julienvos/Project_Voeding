@@ -2,12 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-from get_the_data_from_database import get_data
-
 import plotly.express as px
 
 
-def covid_voeding_function( data_food_group, data_macronutrients, data_covid, data_overweight_adults):
+def covid_voeding_function(data_food_group, data_macronutrients, data_covid, data_overweight_adults):
 
     st.header('Covid en voeding')
 
