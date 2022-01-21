@@ -1,0 +1,4 @@
+# ignore a single file
+config.ini
+
+.streamlit/secrets.toml
