@@ -13,6 +13,7 @@ from pages.life_expectancy_vs_voeding import life_expectancy_function
 
 st.title('Voeding en demografie')
 
+
 #import all the data
 data_bmi_men, data_bmi_women, data_food_group, data_macronutrients, data_life_expectancy, data_covid, data_overweight_adults = get_data()
 

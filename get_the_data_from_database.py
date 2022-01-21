@@ -3,11 +3,10 @@ import pandas as pd
 import streamlit as st
 
 #import custom library
-from db_connect.connect_to_database import connect, write_to_database, read_from_database 
-#read and write with pandas dataframes
+from db_connect.connect_to_database import read_from_database
 
 
-@st.cache
+@st.cache(ttl=600)
 def get_data():
     # Data: bmi of men
     query_bmi_men = "SELECT * FROM bmi_men"
