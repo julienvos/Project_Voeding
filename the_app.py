@@ -1,24 +1,16 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
-
-from db_connect_streamlit.get_the_data_from_database import get_data
-
-import plotly.express as px
-from db_connect_streamlit.read_db import init_connection
+from connect_with_csv.convert_csv_data import read_csv_files
 
 from pages.BMI_vs_voeding import bmi_function
 from pages.covid_vs_voeding import covid_voeding_function
 from pages.life_expectancy_vs_voeding import life_expectancy_function
 
 #------------------------------------------------------------------
-conn = init_connection()
-
+# conn = init_connection()
 st.title('Voeding en demografie')
 
 #import all the data
-data_bmi_men, data_bmi_women, data_food_group, data_macronutrients, data_life_expectancy, data_covid, data_overweight_adults = get_data(conn=conn)
-
+data_food_group, data_macronutrients, data_life_expectancy, data_bmi_men, data_bmi_women, data_overweight_adults, data_covid = read_csv_files()
 
 page = st.sidebar.selectbox(label ='Selecteer een onderwerp:', options=['BMI vs voeding','Levensverwachting vs voeding', 'corona vs voeding'])
 
