@@ -1,6 +1,6 @@
 from mysql.connector import MySQLConnection, Error
 from sqlalchemy.sql.functions import user
-from python_mysql_dbconfig import read_db_config
+from db_connect.python_mysql_dbconfig import read_db_config
 import pandas as pd
 from sqlalchemy import create_engine
 
