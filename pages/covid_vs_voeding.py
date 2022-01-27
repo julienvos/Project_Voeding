@@ -18,7 +18,7 @@ def covid_voeding_function(data_food_group, data_macronutrients, data_covid, dat
 
     # these columns should actually just be stored in the database
     data_covid_copy["mortality_risk"] = data_covid_copy['total_deaths_per_million'] / data_covid_copy['total_cases_per_million']
-    covid_overweight = pd.merge(data_covid_copy, data_overweight_adults_copy.drop(columns=['index', 'Entity']), how='inner', left_on=['iso_code'], right_on=['Code'])
+    covid_overweight = pd.merge(data_covid_copy, data_overweight_adults_copy.drop(columns=['Entity']), how='inner', left_on=['iso_code'], right_on=['Code'])
 
 # ----------------------------------------------------------------------------------------------------------------------
     clist_covid = data_covid_copy['location'].unique()
